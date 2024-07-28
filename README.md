@@ -10,6 +10,8 @@
 2. install plugins using `nb plugin install` .
 3. run your bot using `nb run` .
 
+由于此插件为单独插件，请修改Bot目录的`pyproject.toml`里的`plugin_dir`后将插件文件放入设定的文件夹载入
+
 ## Documentation
 
 See [Docs](https://nonebot.dev/)
