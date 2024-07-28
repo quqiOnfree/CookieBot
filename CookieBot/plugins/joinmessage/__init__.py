@@ -31,7 +31,7 @@ async def request_handle(bot: Bot, event: GroupRequestEvent):
     request_list[str(event.group_id)][str(event.user_id)] = event
     await bot.send_group_msg(group_id=event.group_id, message="""有新的入群申请
 » 申请人 {}
-» 答案     {}
+{}
 
 回复此消息:/同意 /拒绝""".format(event.user_id, json.loads(event.model_dump_json())["comment"]))
 
