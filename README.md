@@ -1,5 +1,9 @@
 # CookieBot
 
+这是一个通过Bor处理加群请求的插件
+目前处于Alpha测试状态
+欢迎Pr(不是)
+
 ## How to start
 
 1. generate project using `nb create` .
