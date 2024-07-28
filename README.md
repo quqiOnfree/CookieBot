@@ -13,3 +13,5 @@
 ## Documentation
 
 See [Docs](https://nonebot.dev/)
+
+本仓库遵循AGPL-3.0 license
