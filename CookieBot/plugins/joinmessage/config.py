@@ -1,5 +1,4 @@
-from pydantic import BaseModel, FilePath, FileUrl
-from pathlib import Path
+from pydantic import BaseModel
 
 class Config(BaseModel):
-    config_group:set[str] = {808080}
+    config_group:set[str]
