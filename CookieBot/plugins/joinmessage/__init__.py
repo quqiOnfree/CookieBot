@@ -52,7 +52,7 @@ async def request_handle(bot: Bot, event: GroupRequestEvent):
 回复此消息:/同意 {}
 /拒绝 {} 原因
 
-若拒绝需要填写拒绝原因""".format(event.user_id, json.loads(event.model_dump_json())["comment"]), event.user_id, event.user_id)
+若拒绝需要填写拒绝原因""".format(event.user_id, json.loads(event.model_dump_json())["comment"], event.user_id, event.user_id))
 
 agree = on_command('同意', aliases={'/agree', '/同意'}, priority=1, block=True,
                    permission=GROUP_ADMIN | GROUP_OWNER | SUPERUSER)
